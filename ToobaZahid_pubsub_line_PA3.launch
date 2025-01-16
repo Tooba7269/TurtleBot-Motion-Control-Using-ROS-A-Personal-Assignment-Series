@@ -1,0 +1,5 @@
+<launch>
+    <node name="ToobaZahid_publisher_line" pkg="rss_pubsub_pkg" type="ToobaZahid_publisher_line.py" output="screen"/>
+    <node name="ToobaZahid_subscriber" pkg="rss_pubsub_pkg" type="ToobaZahid_subscriber.py" output="screen"/>
+</launch>
+

@@ -1,0 +1,6 @@
+<launch>
+   
+    <node name="pw_srv_server" pkg="rss2_msgsrv_pkg" type="pw_srv_server.py" output="screen">
+    </node>
+</launch>
+

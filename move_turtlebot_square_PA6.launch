@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="rss2_msgsrv_pkg" type="turtlebot_move_square_server.py" name="turtlebot_move_square_server" output="screen" />
+
+  <node pkg="rss2_msgsrv_pkg" type="turtlebot_move_square_client.py" name="turtlebot_move_square_client" output="screen" />
+</launch>
